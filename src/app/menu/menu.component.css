@@ -1,50 +1,249 @@
-#mybill{
-    background-color: #c5a516;
-    opacity:0.5;
-    height:100px;
-    padding: 2%;
-}
-#levelback,#menu{
-    background-color: black;
-    height:100px;
-    padding: 2%;
-    opacity:0.5;
-    width:100%;
+
+@media (min-width: 1281px) {
+    /* @media screen and (max-height:1080px)and (max-width:1920px){  */
     
+    #div1{
+        margin-left: 0.95%
+    }
+    #mybill,#levelback,#menu{
+        
+        opacity:0.5;
+        height:80px;
+        padding: 4%;
+    }
+    .glyphicon .glyphicon-book{
+        padding-right: 15px;
 
-}
-.row .col-lg-7,.row .col-lg-5{
-    padding:0px;
-    margin: 0px;
-}
-a{
-    font-size:20px;
-    color:white;
-    line-height: 90px;
-    font-size: 30px;
+    }
+    #mybill
+    {
+        background-color: #D7AB6D;
+        line-height: 40%;
+    } 
+    
+   
+     .col-lg-3{
+        width:27.2%;
+        margin-right:6.1%;
+        margin-left: 0%;
 
-}
-#submenu{
-    display:inline-block;
-}
-button{
-    background-color: white;
-    height:25px;
-    width:50%;
-    border-radius: 5%;
-    margin-left:1%;
-    color:black;
-    padding-bottom: 5px;
+    }
+    .col-lg-7{
+        width:50%;
+        line-height: 0.8;
+        font-size:25px;
+        color:black;
+        
 
-}
-#mybill p{
-    color:black;
-    font-size: 20px;
-    font-family:Calibri; 
+    }
+    #levelback,#menu
+    {
+        background-color: black;
+        line-height: 40%;
+    }
+    #book,#bookword{
+        font-size: 40px;
+        color:white;
+
+    }
+    #bookword{
+       
+        padding-top: 4%;
+    }
+    .col-lg-5{
+        width:29%;
+        line-height: 0.8;
+        font-size:35px;
+        color:white;
+        
+        
+    }
+    .row .col-lg-5{
+        padding-top: 2%;
+    }
+  
+    .row .col-lg-7{
+        padding:0px;
+        margin: 0px;
+    }
+    a{
+        font-size:20px;
+        color:white;
+        line-height: 90px;
+        font-size: 30px;
+
+    }
+    #submenu{
+       color:white;
+    }
+    button{
+        background-color: white;
+        height:25px;
+        
+        border-radius: 20%;
+        margin-left:1%;
+        margin-top:1%;
+        color:black;
+        padding-bottom: 5px;
+        font-size:25px;
+        font-weight: bold;
+
+    }
+    #btn_bill{
+
+       width:35%;  
+    }
+    #btn_menu{
+        width:35%; 
+        padding-left: 1px;
+    }
+    #btn_exit{
+        width:30%; 
+        padding-left: 1px;
+    }
+    #mybill{
+        color:black;
+        
+    }
+  
+   
+     #levelback p,#menu p,#mybill p{
+      
+        font-family:Calibri; 
+        font-size: 20px;
+        
+    }
+    #levelback p,#menu p:not(button){
+        color:white;
+       
+    }
+     #fathermenu{
+         margin-left: 0.1%;
+        width:27.2%;
+    }
+    
     
 }
-#levelback p,#menu p:not(button){
-    color:white;
-    font-family:Calibri; 
-    font-size: 20px;
+@media (max-width: 1280px) {
+    #div1{
+        margin-left: 1.25%
+    }
+    #mybill,#levelback,#menu{
+        
+        opacity:0.5;
+        height:80px;
+        padding: 8%;
+    }
+    .glyphicon .glyphicon-book{
+
+    }
+    #mybill
+    {
+        background-color: #D7AB6D;
+        line-height: 40%;
+    }
+    #levelback,#menu
+    {
+        background-color: black;
+        line-height: 40%;
+    }
+    #submenu{
+        color:white;
+     }
+     #btn_menu{
+        width:42%; 
+        padding-left: 1px;
+    }
+    H4{
+        line-height: 0.8;
+        
+        font-size:26px;
+        color:white;
+    }
+    .col-lg-3{
+        width:28%;
+        margin-right:0.8%;
+        margin-left: 0%;
+
+    }
+    .col-lg-7{
+        width:50%;
+        line-height: 0.8;
+        font-size:20px;
+        color:black;
+        
+
+    }
+    #book,#bookword{
+        font-size: 30px;
+        color:white;
+
+    }
+    #bookword{
+       
+        padding-top: 4%;
+    }
+    
+    .col-lg-5{
+        width:29%;
+        line-height: 0.8;
+        font-size:25px;
+        color:white;
+        
+        
+    }
+   
+    .row .col-lg-7,.row .col-lg-5{
+        padding:0px;
+        margin: 0px;
+    }
+    a{
+        font-size:20px;
+        color:white;
+        line-height: 90px;
+        font-size: 30px;
+
+    }
+    
+    button{
+        background-color: white;
+        height:25px;
+        border-radius: 20%;
+        margin-left:1%;
+        margin-top:1%;
+        color:black;
+        padding-bottom: 5px;
+        font-size:18px;
+        font-weight: bold;
+
+    }
+    #btn_bill{
+
+       width:41%;  
+    }
+    /* #btn_menu{
+        width:35%; 
+        padding-left: 1px;
+    } */
+    #btn_exit{
+        width:32%; 
+        padding-left: 1px;
+    }
+    #mybill p{
+        color:black;
+        
+    }
+    
+   
+     #levelback p,#menu p,#mybill p{
+      
+        font-family:Calibri; 
+        font-size: 20px;
+        
+    }
+    #levelback p,#menu p:not(button){
+        color:white;
+       
+    }
 }
+    

@@ -1,0 +1,38 @@
+[[
+    
+   
+        {
+            "title":"FOOD ORDER",
+            "imgpath":"./src/assets/images/orderfood.gif" 
+        },
+        {
+            "title":"LESUIRE TIME",
+            "imgpath":"./src/assets/images/lesuire.jpg" 
+        },
+        {
+            "title":"ENTERTAINMENT",
+
+            "imgpath":"./src/assets/images/entertainment.jpg" 
+        }
+ ] 
+ ,
+ [
+        {
+            "title":"ORDERTAXI",
+            "imgpath":"./src/assets/images/taxi.jpg" 
+        },
+        {
+            "title":"WAKEUPCALL",
+            "imgpath":"./src/assets/images/wakeupcall.jpeg" 
+        },
+        {
+            "title":"RENT CAR",
+            "imgpath":"./src/assets/images/rentcar.jpg" 
+        }
+    
+       
+
+        
+]]
+
+    

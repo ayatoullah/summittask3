@@ -1,16 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-@media screen and (max-width: 1280px) and (max-height: 720px){
+@media(min-width:1281px){
+    /* @media screen and (min-width:1281px) and (max-width:1920px){  */
     body, html {
         height: 100%;
-      }
-    .bg{
+       
         
+      }
+      #all{
+        margin-left: 4%;
+        margin-top: 5%
+        
+    }
+    .bg{
+        line-height: 1;
         background-image: url(/src/assets/images/379.jpg);
-      
-    /* Full height */
     height: 100%; 
     
-    /* Center and scale the image nicely */
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,11 +28,53 @@
     }
     .row .col-lg-3{
         margin-right: 3%;
+        width:30%;
+    }
+    .glyphicon .glyphicon-menu-left{
+        font-size: 30%;
+        
+    }
+    .row .col-lg-1{
+        width:5%;
+    }
+    
+       
+} 
+
+@media screen and (max-width: 1280px) and (max-height: 720px){
+    /* .all{
+        margin-left: 13%;
+    } */
+    body, html {
+        height: 100%;
+        
+        
+      }
+    .bg{
+      
+        background-image: url(/src/assets/images/379.jpg);
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .row{
+        
+        margin-bottom: 2%;
+    }
+    .row .col-lg-3{
+        margin-right: 3%;
+    }
+    .glyphicon .glyphicon-menu-left{
+        font-size: 30%;
+
+    }
+    .col-10{
+        margin-left: 10%;
+        margin-top:4%;
     }
     
     
 }
 
-@media screen and (max-width: 1920px) and (max-height: 1080px){
-       
-}

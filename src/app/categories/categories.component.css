@@ -1,5 +1,56 @@
-img{
-    width: 300px;
-    height:180px;
 
-}
+  @media screen and (min-width:1281px){
+    /* @media screen and (max-height:1080px)and (max-width:1920px){  */
+    img{
+      
+      width:45%;
+      height:260px;
+  
+  }
+  .bottom-left {
+      position: absolute;
+      bottom: 0px;
+      left: 30px;
+      background-color:black;
+      opacity:0.7;
+      font-size: 50px;
+      color:white;
+      font-family: calibri;
+      width:75%;
+      padding-left: 3%;
+      
+    }
+    .container {
+      position: relative;
+      text-align: left;
+      color: white;
+    }
+       
+  }
+  @media (max-height: 720px) and (max-width: 1280px){
+    img{
+      
+      width:320px;
+      height:160px;
+  
+  }
+  .bottom-left {
+      position: absolute;
+      bottom: 0px;
+      left: 30px;
+      background-color:black;
+      opacity:0.7;
+      font-size: 25px;
+      color:white;
+      font-family: calibri;
+      width:75%;
+      padding-left: 3%;
+      
+    }
+    .container {
+      position: relative;
+      text-align: left;
+      color: white;
+    }
+  }
+  

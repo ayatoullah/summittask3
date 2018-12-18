@@ -1,7 +1,8 @@
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-lg-3">
       <img src="./src/assets/images/31.png">
+      
     </div>
     <div class="col-lg-3">
       <img src="./src/assets/images/32.png">
@@ -11,8 +12,8 @@
       <img src="./src/assets/images/33.png">
 
     </div>
-</div>
-<div class="row">
+</div> -->
+<!-- <div class="row">
     <div class="col-lg-3">
       <img src="./src/assets/images/41.png">
     </div>
@@ -20,7 +21,26 @@
       <img src="./src/assets/images/51.png">
     </div>
     <div class="col-lg-3">
-      <img src="./src/assets/images/61.png">
+      
+      <div class="container">
+          <img src="./src/assets/images/61.png">      </div>
+      
+      <div class="bottom-left">
+        bla bla
+      </div>
     </div>
+</div> -->
+<div>
+    <div class="row" *ngFor='let item of menu'>
+        <div class="col-lg-3" *ngFor='let img of item'>  
+          <div class="container">
+              <img [src]=[img.imgpath]>
+          </div>
+          
+          <div class="bottom-left">
+            {{img.title}}
+          </div>
+        </div>
+    </div>
+    
 </div>
-
